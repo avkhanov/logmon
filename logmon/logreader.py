@@ -16,4 +16,8 @@ class LogReader(object):
     def detach(self):
         pass
 
+    @abstractmethod
+    def read(self):
+        pass
+
 
